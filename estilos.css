@@ -1,0 +1,45 @@
+body {
+    font-family: 'Orbitron', sans-serif; /* Fuente con un estilo futurista */
+    background: radial-gradient(circle, #0d0d0d, #1a1a1a);
+    color: #e0e0e0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+}
+
+/* Contenedor principal con un diseño de panel futurista */
+.container {
+    text-align: center;
+    background-color: rgba(25, 25, 25, 0.9);
+    padding: 30px;
+    border-radius: 20px;
+    border: 2px solid #00ffcc;
+    box-shadow: 0 0 30px rgba(0, 255, 255, 0.5), inset 0 0 15px rgba(0, 255, 255, 0.3);
+    backdrop-filter: blur(8px);
+}
+
+/* Título con efecto de iluminación futurista */
+h1 {
+    color: #00ffcc;
+    font-size: 2.7rem;
+    margin-bottom: 20px;
+    letter-spacing: 2px;
+    text-shadow: 0 0 15px #00ffcc, 0 0 30px #00ffcc;
+}
+
+/* Div que muestra los números generados con un estilo de pantalla digital */
+#resultado {
+    color: #e0e0e0;
+    font-size: 2rem;
+    font-weight: bold;
+    background: linear-gradient(135deg, #00ffcc, #006666);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-shadow: 0 0 15px rgba(0, 255, 255, 0.6);
+    border: 1px solid #00ffcc;
+    border-radius: 10px;
+    padding: 15px;
+    box-shadow: 0 0 10px rgba(0, 255, 255, 0.4);
+}
